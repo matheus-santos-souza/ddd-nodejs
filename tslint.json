@@ -1,0 +1,17 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {},
+    "rulesDirectory": [],
+    "overrides": [
+        {
+          "files": ["src/**/*.spec.ts"],
+          "env": {
+            "jest": true
+          }
+        }
+    ]
+}
