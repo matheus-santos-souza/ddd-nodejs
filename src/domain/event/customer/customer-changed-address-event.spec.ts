@@ -1,5 +1,5 @@
-import SendEmailWhenProductIsCreatedHandler from "./handler/send-email-when-product-is-created.handler"
-import ProductCreatedEvent from "./product-created.event"
+import SendEmailWhenProductIsCreatedHandler from "../product/handler/send-email-when-product-is-created.handler"
+import ProductCreatedEvent from "../product/product-created.event"
 import EventDispatcher from "../@shared/event-dispatcher"
 import EnviaConsoleLog1Handler from "./handler/envia-console-log-1.handler"
 import EnviaConsoleLog2Handler from "./handler/envia-console-log-2.handler"

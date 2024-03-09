@@ -1,5 +1,5 @@
 import { UUID } from "node:crypto";
-import OrderRepositoryInterface from "../../domain/repository/customer.repository.interface copy";
+import OrderRepositoryInterface from "../../domain/repository/order.repository.interface";
 import OrderModel from "../database/sequelize/model/order.model";
 import Order from "../../domain/entity/order";
 import OrderItemModel from "../database/sequelize/model/order-item.model";
